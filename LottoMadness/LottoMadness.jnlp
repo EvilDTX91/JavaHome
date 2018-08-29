@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for LottoMadness Application -->
+<jnlp
+	codebase="file:///D:/Progok/!+prggyak+!/NetBeans/LottoMadness/dist/"
+	href="LottoMadness.jnlp">
+	<information>
+		<title>LottoMadness Application</title>
+		<vendor>Nadas Tamas</vendor>
+		<homepage href="http://www.google.com"/>
+		<icon href="lottobigicon.gif"/>
+		<offline-allowed/>
+	</information>
+        <security>
+        <all-permissions/>
+        </security>
+	<resources>
+		<j2se version="1.5+"/>
+		<jar href="LottoMadness.jar" main="true"/>
+	</resources>
+	<application-desc main-class="LottoMadness"/>
+</jnlp>
